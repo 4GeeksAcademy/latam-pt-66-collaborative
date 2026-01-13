@@ -1,3 +1,14 @@
 body{
     background: #BDBDBD;
 }
+        .rounded-avatar {
+            width: 80%;
+            height: auto;
+            padding: 40px;
+        }
+        .color-title{
+            color: #a8a8a8;
+        }
+        .txt01{
+            padding-left: 50px;
+        }
