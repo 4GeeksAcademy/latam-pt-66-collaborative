@@ -3,13 +3,19 @@ body {
   background: white;
 }
 
+/* Contact Area - JWA */
 .contact-box {
   max-width: 760px;
-  background-color: lightgrey;
+  background-color: rgb(238, 235, 235);
   border-radius: 6px;
   padding: 20px;
 }
 
 .form-label {
   font-weight: bold;
+}
+
+.contact-page {
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
