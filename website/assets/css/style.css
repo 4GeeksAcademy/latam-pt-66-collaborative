@@ -1,5 +1,6 @@
-body{
-    background: #BDBDBD;
+body {
+  /* background: #BDBDBD; */
+  background: white;
 }
         .rounded-avatar {
             width: 80%;
@@ -13,10 +14,31 @@ body{
             padding-left: 50px;
         }
 
+/* Contact Area - JWA */
+.contact-box {
+  max-width: 760px;
+  background-color: rgb(238, 235, 235);
+  border-radius: 6px;
+  padding: 20px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.contact-page {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+/* nose de quien */
 .project-name {
-    color: rgb(30, 111, 197);
+  color: rgb(30, 111, 197);
 }
 
 .project-desc {
+<<<<<<< HEAD
     font-size: 14px;
+=======
+  font-size: 14px;
+>>>>>>> 1774dbccfa99d19bc142f8a0b8a2f01c93c3ff91
 }
