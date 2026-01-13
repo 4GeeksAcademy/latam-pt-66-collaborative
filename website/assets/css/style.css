@@ -12,3 +12,11 @@ body{
         .txt01{
             padding-left: 50px;
         }
+
+.project-name {
+    color: rgb(30, 111, 197);
+}
+
+.project-desc {
+    font-size: 14px;
+}
