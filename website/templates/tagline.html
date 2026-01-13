@@ -1,3 +1,31 @@
-<!-- your html code here -->
-<!-- Also called a hero image or a jumbotron before bootstrap 5. This might be helpful: https://getbootstrap.com/docs/5.1/examples/jumbotron/ -->
-<p>Hello, I'm the tagline and I was loaded using ajax from templates/tagline.html</p>
+<header class="py-5" style="
+    background-image: url('assets/img/bg.jpg'); 
+    background-size: cover; 
+    background-position: bottom center; /* Ancla la imagen abajo para ver los edificios */
+    background-repeat: no-repeat;
+    min-height: 90vh; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: flex-start; /* Alinea el contenido al inicio (arriba) */
+    padding-top: 60px !important; /* Controla qué tan arriba están los textos */
+">
+    <div class="container-fluid p-0 w-100">
+        
+        <div class="bg-white py-4 mb-2 text-center shadow-sm" style="background-color: rgba(255,255,255,0.9) !important;">
+            <div class="container">
+                <h1 class="display-1 fw-bold text-dark mb-0" style="font-size: calc(3rem + 4vw); letter-spacing: -2px;">
+                    One Page Wonder
+                </h1>
+            </div>
+        </div>
+
+        <div class="bg-white py-3 text-center shadow-sm" style="background-color: rgba(255,255,255,0.9) !important;">
+            <div class="container">
+                <h2 class="display-3 fw-normal text-dark mb-0" style="font-size: calc(1.5rem + 2vw);">
+                    Will Knock Your Socks Off
+                </h2>
+            </div>
+        </div>
+
+    </div>
+</header>

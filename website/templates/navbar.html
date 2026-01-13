@@ -1,2 +1,71 @@
-<!-- your html code here -->
-<p>Hello, I'm the navbar.html</p>
+<style>
+  .nav-wrapper, 
+  .container-fluid.p-0,
+  body > .container-fluid {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  
+  .nav-custom {
+    background-color: #212121 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+    width: 100%;
+  }
+
+  
+  .nav-custom .navbar-brand {
+    color: #999999 !important;
+    font-size: 1.25rem;
+    padding-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+
+  .nav-custom .nav-link {
+    color: #999999 !important;
+    padding: 1rem 0.8rem !important;
+    font-size: 0.95rem;
+  }
+
+  .nav-custom .nav-link:hover {
+    color: #ffffff !important;
+  }
+
+  
+  .nav-custom .container-fluid {
+    padding: 0 !important;
+  }
+</style>
+
+<nav class="navbar navbar-expand-lg navbar-dark nav-custom">
+  <div class="container-fluid">
+    <div class="d-flex align-items-center">
+      
+      <a class="navbar-brand" href="#">Start Bootstrap</a>
+      
+      <button class="navbar-toggler me-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</nav>
