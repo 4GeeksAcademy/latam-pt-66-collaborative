@@ -6,22 +6,29 @@
       dolores veritatis nisi iste quod illo eius ab laboriosam repellendus
       officiis at, vitae, dolor omnis, optio tenetur eveniet quibusdam. Quia.
     </p>
-    <form>
-      <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Your email</label>
-        <input
-          type="email"
-          class="form-control"
-          id="exampleInputEmail1"
-          aria-describedby="emailHelp"
-        />
-      </div>
-      <div class="mb-3">
-        <label for="message" class="form-label">Message</label>
-        <input type="text" class="form-control" id="message" />
-      </div>
+    <div class="contact-box">
+      <form>
+        <div class="row g-3 align-items-center">
+          <div class="col-auto">
+            <label for="message" class="form-label">Your Email</label>
+          </div>
+          <div class="col-auto">
+            <input
+              type="text"
+              id="message"
+              class="contact-label-input"
+              placeholder="Your Email"
+            />
+          </div>
+        </div>
 
-      <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
+        <div class="mb-3">
+          <label for="message" class="form-label">Your message</label>
+          <textarea class="form-control" id="message" rows="3"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
   </div>
 </div>

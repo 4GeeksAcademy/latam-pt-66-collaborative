@@ -1,3 +1,15 @@
-body{
-    background: #BDBDBD;
+body {
+  /* background: #BDBDBD; */
+  background: white;
+}
+
+.contact-box {
+  max-width: 760px;
+  background-color: lightgrey;
+  border-radius: 6px;
+  padding: 20px;
+}
+
+.form-label {
+  font-weight: bold;
 }
